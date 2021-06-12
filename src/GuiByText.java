@@ -56,8 +56,7 @@ public class GuiByText  extends JFrame{
         guiByText.meletakkanKomponen();
         guiByText.setVisible(true);
 
-
-    }
+     }
     void menambahkanListener(){
          button1.addActionListener(new ActionListener() {
              @Override
