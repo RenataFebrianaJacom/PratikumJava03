@@ -56,10 +56,12 @@ public class GuiByText  extends JFrame{
         guiByText.meletakkanKomponen();
         guiByText.setVisible(true);
 
-     }
+    }
+
     void menambahkanListener(){
          button1.addActionListener(new ActionListener() {
              @Override
+
              public void actionPerformed(ActionEvent actionEvent) {
                  String nama = textField1.getText();
                  JOptionPane.showMessageDialog(null,"Hai" + nama);
@@ -72,7 +74,10 @@ public class GuiByText  extends JFrame{
 
             int hasil = panjang * lebar;
             String sHasil = String.valueOf(hasil);
+
+            tHasil.setText(sHasil);
         });
+
     }
 
 }
